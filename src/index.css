@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.star {
+    color: rgb(247, 221, 32);
+  }

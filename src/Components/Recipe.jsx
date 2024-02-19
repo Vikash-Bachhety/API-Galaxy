@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import search from "../assets/search.png";
+import StarRating from "./StarRating";
 
 function Content() {
   const [data, setData] = useState([]);
@@ -71,7 +72,7 @@ function Content() {
 
   return (
     <div
-      className="bg-gradient-to-r from-yellow-400 to-rose-400"
+      className="bg-gradient-to-r from-cyan-400 to-green-400"
       style={{
         display: "flex",
         flexWrap: "wrap",
@@ -86,7 +87,7 @@ function Content() {
       }}
     >
       <div
-        className="animate "
+        className="animate"
         style={{
           display: "flex",
           flexWrap: "wrap",
@@ -140,7 +141,7 @@ function Content() {
             <div
               style={{
                 display: "flex",
-                justifyContent: "space-between",
+                justifyContent: "space-evenly",
                 alignItems: "center",
                 marginBottom: "10px",
               }}
@@ -156,6 +157,8 @@ function Content() {
               </h3>
               <h5>{item.strMeal}</h5>
             </div>
+            <div style={{display:"flex", justifyContent:"center", marginBottom:"5px"}}><StarRating /></div>
+            
             <img
               style={{
                 height: "300px",
@@ -206,10 +209,12 @@ function Content() {
             >
               {meal.strMeal}
             </h3>
+            <StarRating />
             <img
               style={{
                 width: "300px",
                 height: "300px",
+                marginTop: "5px",
                 borderRadius: "20px",
                 objectFit: "cover",
                 border: "4px solid",
@@ -257,10 +262,12 @@ function Content() {
             >
               {meal.strMeal}
             </h3>
+            <StarRating />
             <img
               style={{
                 width: "300px",
                 height: "300px",
+                marginTop: "5px",
                 borderRadius: "20px",
                 objectFit: "cover",
                 border: "4px solid",
@@ -307,10 +314,12 @@ function Content() {
             >
               {meal.strMeal}
             </h3>
+            <StarRating />
             <img
               style={{
                 width: "300px",
                 height: "300px",
+                marginTop: "5px",
                 borderRadius: "20px",
                 objectFit: "cover",
                 border: "4px solid",
@@ -357,10 +366,12 @@ function Content() {
             >
               {meal.strMeal}
             </h3>
+            <StarRating />
             <img
               style={{
                 width: "300px",
                 height: "300px",
+                marginTop: "5px",
                 borderRadius: "20px",
                 objectFit: "cover",
                 border: "4px solid",
