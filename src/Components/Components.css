@@ -1,0 +1,72 @@
+.common {
+  position: absolute;
+  left: 0;
+  width: 100vw;
+  height: 80vh;
+  filter: brightness(0.85);
+  background-position: center;
+  background-size: cover;
+  z-index: -10;
+  scroll-behavior: smooth;
+}
+
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+
+
+.scrollRight {
+    animation-name: scrollRight;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
+
+@keyframes scrollRight {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+.scrollLeft {
+    animation-name: scrollLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
+
+@keyframes scrollLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+.animate {
+    animation-name: animate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
+
+@keyframes animate {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+
