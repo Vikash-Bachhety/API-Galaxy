@@ -14,6 +14,24 @@
   display: none;
 }
 
+.backGroundAnimate {
+    animation-name: backGroundAnimate;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation-iteration-count: infinite;
+}
+
+@keyframes backGroundAnimate {
+    0% {
+        background-color: #0c0e32fb;
+    }
+    50% {
+        background-color: #081b22fb;
+    }
+    100% {
+        background-color: #180721fb;
+    }
+}
 
 .scrollRight {
     animation-name: scrollRight;

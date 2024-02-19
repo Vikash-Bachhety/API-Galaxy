@@ -6,8 +6,8 @@ import favicon from '../assets/API1.png'
 
 function Header() {
     return (
-        <div className='flex flex-col sm:flex sm:flex-row bg-[#050439fb] text-white min-w-full h-28 sm:h-16 text-sm sm:text-xl font-normal sm:tracking-wider font-sans items-center justify-between fixed top-0 left-0'>
-            <Link className='flex flex-col w-12 sm:w-40 sm:h-40 sm:mt-8 rounded-full bg-[#050439fb] relative z-10'>
+        <div className='backGroundAnimate flex flex-col sm:flex sm:flex-row text-white min-w-full h-28 sm:h-16 text-sm sm:text-xl font-normal sm:tracking-wider font-sans items-center justify-between fixed top-0 left-0'>
+            <Link className='backGroundAnimate flex flex-col w-12 sm:w-40 sm:h-40 sm:mt-8 rounded-full relative z-10'>
             <a href="./Home"></a><img className='sm:w-32 sm:h-32 sm:mt-8 sm:ml-4 relative' src={favicon} alt="" />
             </Link>
             <div className='flex flex-wrap justify-center gap-x-4 mx-4 sm:gap-x-10'>
