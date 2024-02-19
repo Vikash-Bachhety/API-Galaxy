@@ -81,7 +81,7 @@ function Content() {
         margin: "20px 0px 100px",
         width: "auto",
         height: "full",
-        color: "white",
+        color: "black",
         textShadow: "10px",
         paddingBottom: "18vh",
       }}
