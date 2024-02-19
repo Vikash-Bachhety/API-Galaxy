@@ -24,11 +24,11 @@ function Home() {
           FEATURES
         </h2>
         <ul className="flex flex-col sm:text-2xl text-white font-thin text-center sm:gap-5 font-serif">
-          <li><a href="/Weather">Weather</a></li>
-          <li><a href="/Dictionary">Dictionary</a></li>
-          <li><a href="/Converter">Currency Converter</a></li>
-          <li><a href="/Recipe">Recipe</a></li>
-          <li><a href="/Password Generator">Password Generator</a></li>
+          <li>Weather</li>
+          <li>Dictionary</li>
+          <li>Currency Converter</li>
+          <li>Recipe</li>
+          <li>PasPassword Generator</li>
         </ul>
       </div>
       </div>
