@@ -40,7 +40,7 @@ function Password() {
 
   return (
     <div className='bg-gradient-to-r from-cyan-500 to-purple-400 common flex justify-center mt-9 sm:mt-0'>
-      <div className='animate flex flex-col sm:w-1/3 w-80 h-60 sm:h-60 mt-36 sm:mt-40 gap-10 bg-opacity-15 sm:bg-opacity-10 items-center sm:hover:scale-105 transition-all duration-1000 bg-white rounded-lg border-x-4 border-y-8 border-white'>
+      <div className='animate flex flex-col shadow-black shadow-xl sm:w-1/3 w-80 h-60 sm:h-60 mt-36 sm:mt-40 gap-10 bg-opacity-15 sm:bg-opacity-10 items-center sm:hover:scale-105 transition-all duration-1000 bg-white rounded-lg border-x-4 border-y-8 border-white'>
       <div className='flex items-center mt-10 sm:mt-20'>
         <input
         className='bg-white w-52 sm:w-96 pl-2 sm:h-10 h-6 rounded-l-lg focus:outline-none'

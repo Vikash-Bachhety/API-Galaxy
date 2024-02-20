@@ -62,7 +62,7 @@ function Location() {
         <h1 className="font-bold text-2xl">Location</h1>
         <p className="text-lg font-semibold py-2">{address}</p>
         <button
-          className="absolute bottom-3 w-28 h-6 sm:h-8 rounded-xl bg-green-500 text-white border border-white font-semibold"
+          className="absolute bottom-3 w-28 h-6 sm:h-8 rounded-xl bg-green-600 text-white border-2 border-black font-semibold"
           onClick={getCordinates}
         >
           Get Location

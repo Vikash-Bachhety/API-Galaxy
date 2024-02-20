@@ -30,8 +30,8 @@ function Contact() {
   };
 
   return (
-    <div className="bg-gradient-to-r from-blue-500 to-cyan-500 flex justify-center bg-center border border-black w-full bg-cover h-screen mt-16 sm:mt-8 absolute -z-10 left-0 font-serif tracking-wider bg-scroll">
-      <div className='animate w-3/4 h-80 mt-20 sm:w-1/3 sm:h-2/3 bg-white bg-opacity-10 hover:scale-95 transition-all duration-1000 flex justify-center items-center border-x-4 border-y-2 border-white rounded-lg sm:mt-3'>
+    <div className="bg-gradient-to-r from-blue-500 to-cyan-500 flex justify-center bg-center border border-black w-full bg-cover h-[85vh] mt-16 sm:mt-8 relative -z-10 left-0 font-serif tracking-widerl">
+      <div className='animate w-3/4 h-80 mt-20 sm:w-1/3 sm:h-4/5 bg-white bg-opacity-10 hover:scale-95 transition-all duration-1000 flex justify-center items-center shadow-black shadow-xl rounded-lg sm:mt-3'>
       
       <form onSubmit={handleSubmit} className="mt-8 sm:mt-0 p-6 sm:p-0 w-full max-w-md">  
       <h1 className="sm:text-3xl text-lg font-extrabold sm:mb-2 sm:mt-6 text-white">Contact Us</h1>
