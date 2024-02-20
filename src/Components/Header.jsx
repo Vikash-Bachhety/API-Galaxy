@@ -10,7 +10,7 @@ function Header() {
             <Link className='backGroundAnimate flex flex-col w-12 sm:w-40 sm:h-40 sm:mt-8 rounded-full relative z-10'>
             <a href="./Home"></a><img className='sm:w-32 sm:h-32 sm:mt-8 sm:ml-4 relative' src={favicon} alt="" />
             </Link>
-            <div className='flex flex-wrap justify-center gap-x-4 mx-4 sm:gap-x-10'>
+            <div className='flex flex-wrap justify-center gap-x-4 mx-2 sm:gap-x-8'>
                <Links to = "Home" text='Home'/>
                <Links to = "Weather" text='Weather'/>
                <Links to = "Dictionary" text='Dictionary'/>
