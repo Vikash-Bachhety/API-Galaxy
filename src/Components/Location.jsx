@@ -35,7 +35,7 @@ function Location() {
   };
 
   return (
-    <div className="bg-gradient-to-r from-sky-500 to-cyan-500 flex flex-col justify-center sm:flex-row bg-center border border-black w-full bg-cover sm:h-[90vh] mt-12 sm:mt-8 left-0 font-serif tracking-wider bg-scroll">
+    <div className="bg-gradient-to-r from-sky-500 to-cyan-500 flex justify-center items-center sm:items-start flex-row w-full bg-cover h-[80vh] sm:h-[90vh] font-serif tracking-wider">
       <div
         style={{
           position: "relative",
@@ -43,6 +43,9 @@ function Location() {
           fontFamily:"sans-serif",
           borderRadius: "20px",
           display: "flex",
+          marginLeft: "25px",
+          marginRight: "20px",
+          flexWrap:"wrap",
           flexDirection: "column",
           alignItems: "center",
           width: "500px",
