@@ -23,41 +23,13 @@
 
 @keyframes backGroundAnimate {
     0% {
-        background: linear-gradient(45deg, #0b3445, #4e1128);
-    }
-    25% {
-        background: linear-gradient(45deg, #1a0b45, #36114e);
+        background: linear-gradient(45deg, #0b3445, #39091c);
     }
     50% {
-        background: linear-gradient(45deg, #0b3945, #4e1144);
-    }
-    75% {
-        background: linear-gradient(45deg, #190b45, #15114e);
+        background: linear-gradient(45deg, rgb(6, 56, 69), #450b0b);
     }
     100% {
-        background: linear-gradient(45deg, #0b3845, #111a4e);
-    }
-}
-
-.borderAnimate:hover {
-    animation-name: borderAnimate;
-    animation-duration: 2s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-}
-
-@keyframes borderAnimate {
-    5% {
-        border-top: 2px solid white;
-    }
-    33% {
-        border-right: 2px solid white;
-    }
-    66% {
-        border-bottom: 2px solid white;
-    }
-    100% {
-        border-left: 2px solid white;
+        background: linear-gradient(45deg, #3c0d1f, #111a4e);
     }
 }
 

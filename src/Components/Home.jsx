@@ -4,7 +4,7 @@ import "./Components.css";
 
 function Home() {
   return (
-    <div className="bg-gradient-to-r from-green-800 to-sky-800 flex flex-col w-max-full w-min-sm border h-auto items-center mt-16 sm:mt-auto -z-10 left-0">
+    <div className="bg-gradient-to-r from-purple-500 to-sky-600 flex flex-col w-max-full w-min-sm border h-auto items-center mt-16 sm:mt-auto -z-10 left-0">
       <div className="sm:mt-10 w-xl h-20 xl:h-10">
         <h1 className="animate text base font-serif text-2xl lg:text-4xl mt-10 sm:mt-12 font-bold text-white hover:scale-105 transition-all duration-300">
           Welcome to API Galaxy
@@ -22,7 +22,7 @@ function Home() {
           <h2 className="animate text-2xl xl:text-4xl sm:mt-5 mb-2 sm:mb-4 font-serif text-white font-solid">
             FEATURES
           </h2>
-          <div className="scrollRight flex flex-col text-sm sm:text-2xl text-white font-thin gap-y-2 text-center font-serif">
+          <div className="scrollRight flex flex-col text-sm sm:text-2xl text-white font-semibold gap-y-2 text-center font-serif">
             <Links to="Weather" text="Weather" />
             <Links to="Dictionary" text="Dictionary" />
             <Links to="Currency" text="Currency" />

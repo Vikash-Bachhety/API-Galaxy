@@ -72,7 +72,7 @@ function Content() {
 
   return (
     <div
-      className="bg-gradient-to-r from-cyan-400 to-green-400"
+      className="bg-gradient-to-r from-cyan-400 to-blue-500"
       style={{
         display: "flex",
         flexWrap: "wrap",

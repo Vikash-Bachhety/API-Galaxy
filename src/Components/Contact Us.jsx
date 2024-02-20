@@ -30,7 +30,7 @@ function Contact() {
   };
 
   return (
-    <div className="bg-gradient-to-r from-cyan-500 to-green-500 flex justify-center bg-center border border-black w-full bg-cover h-screen mt-16 sm:mt-8 absolute -z-10 left-0 font-serif tracking-wider bg-scroll">
+    <div className="bg-gradient-to-r from-blue-500 to-cyan-500 flex justify-center bg-center border border-black w-full bg-cover h-screen mt-16 sm:mt-8 absolute -z-10 left-0 font-serif tracking-wider bg-scroll">
       <div className='animate w-3/4 h-80 mt-20 sm:w-1/3 sm:h-2/3 bg-white bg-opacity-10 hover:scale-95 transition-all duration-1000 flex justify-center items-center border-x-4 border-y-2 border-white rounded-lg sm:mt-3'>
       
       <form onSubmit={handleSubmit} className="mt-8 sm:mt-0 p-6 sm:p-0 w-full max-w-md">  

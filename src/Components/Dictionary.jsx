@@ -26,7 +26,7 @@ function Dictionary() {
   };
 
   return (
-    <div className='bg-gradient-to-r from-green-500 to-blue-500 flex flex-col sm:flex-row bg-center border border-black w-full bg-cover sm:h-[90vh] mt-12 sm:mt-8 left-0 font-serif tracking-wider bg-scroll'>
+    <div className='bg-gradient-to-r from-blue-500 to-purple-500 flex flex-col sm:flex-row bg-center border border-black w-full bg-cover sm:h-[90vh] mt-12 sm:mt-8 left-0 font-serif tracking-wider bg-scroll'>
       <div className='scrollLeft sm:w-1/4 w-11/12 h-32 sm:h-72 sm:p-4 flex flex-col sm:gap-y-4 mx-4 mt-12 sm:m-24 bg-black rounded-lg bg-opacity-80 text-white border-black border-2 drop-shadow-sm'>
         <h2 className='text-md sm:text-2xl font-bold'>Dictionary</h2>
         <p className='text-sm sm:text-lg sm:leading-relaxed tracking-wider'>Explore the vast world of language with the dictionary feature of API Galaxy. Whether you're a word enthusiast, or simply curious about meanings and definitions, dive into our comprehensive dictionary.</p>
