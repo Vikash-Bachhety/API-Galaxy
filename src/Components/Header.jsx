@@ -16,6 +16,7 @@ function Header() {
                <Links to = "Dictionary" text='Dictionary'/>
                <Links to = "Converter" text='Converter'/>
                <Links to = "Recipe" text='Recipe'/>
+               <Links to = "Location" text='Location'/>
                <Links to = "Password" text='Password Generator'/>
                <Links to = "Contact" text='Contact Us'/>
             </div>

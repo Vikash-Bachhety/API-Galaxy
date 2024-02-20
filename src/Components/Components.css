@@ -16,20 +16,26 @@
 
 .backGroundAnimate {
     animation-name: backGroundAnimate;
-    animation-duration: 2s;
+    animation-duration: 8s;
     animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
     animation-iteration-count: infinite;
 }
 
 @keyframes backGroundAnimate {
     0% {
-        background-color: #0c0e32fb;
+        background: linear-gradient(45deg, #45160b, #4e1128);
+    }
+    25% {
+        background: linear-gradient(45deg, #1c450b, #36114e);
     }
     50% {
-        background-color: #081b22fb;
+        background: linear-gradient(45deg, #45350b, #4e1144);
+    }
+    75% {
+        background: linear-gradient(45deg, #0b4535, #15114e);
     }
     100% {
-        background-color: #180721fb;
+        background: linear-gradient(45deg, #0b3845, #111a4e);
     }
 }
 

@@ -10,6 +10,7 @@ import Dictionary from './Components/Dictionary.jsx';
 import Converter from './Components/Converter.jsx';
 import Contact from './Components/Contact Us.jsx';
 import Password from './Components/Password Generator.jsx';
+import Location from './Components/Location.jsx';
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: "/Recipe",
         element: <Recipe/> 
+      },
+      {
+        path: "/Location",
+        element: <Location/> 
       },
       {
         path: "/Dictionary",
