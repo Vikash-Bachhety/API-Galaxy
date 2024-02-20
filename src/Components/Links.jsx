@@ -1,16 +1,14 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
+import React from "react";
+import { NavLink } from "react-router-dom";
 
 function Links({ text }) {
-    return (
-        <div>
-            <ul>
-                <li>
-                    <NavLink to = {text} className= "hover:text-yellow-500 hover:font-serif">{text}</NavLink >
-                </li>
-            </ul>
-        </div>
-    )
+  return (
+    <div>
+      <NavLink to= {`/${text}`} className="borderAnimate hover:text-rose-400 font-serif p-1.5 rounded-3xl border-2 border-transparent">
+        {text}
+      </NavLink>
+    </div>
+  );
 }
 
-export default Links
+export default Links;

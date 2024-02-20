@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './Components.css'
 
-function Converter() {
+function Currency() {
   const inputRef = useRef(null);
   const resultRef = useRef(null);
 
@@ -113,4 +113,4 @@ function Converter() {
   )
 }
 
-export default Converter;
+export default Currency;

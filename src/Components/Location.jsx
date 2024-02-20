@@ -5,12 +5,12 @@ function Location() {
   const [address, setAddress] = useState("");
   const [location, setLocation] = useState("");
 
-  const getLocation = () => {
+  const getCordinates = () => {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(
         (position) => {
           const { latitude, longitude } = position.coords;
-          getWeather(latitude, longitude);
+          getLocation(latitude, longitude);
           setLocation(`latitude ${latitude} & longitude ${longitude}`);
         },
         (error) => {
@@ -20,7 +20,7 @@ function Location() {
     }
   };
 
-  const getWeather = async (latitude, longitude) => {
+  const getLocation = async (latitude, longitude) => {
     const key = "063675c4f0109f566af805547baa87e5";
     const url = `https://api.openweathermap.org/geo/1.0/reverse?lat=${latitude}&lon=${longitude}&limit=5&appid=${key}`;
     try {
@@ -30,6 +30,7 @@ function Location() {
       setAddress(`${name} ${country} ${state}`);
     } catch (error) {
       console.log("Fetching error is " + error);
+      setAddress(`${error}`)
     }
   };
 
@@ -62,7 +63,7 @@ function Location() {
         <p className="text-lg font-semibold py-2">{address}</p>
         <button
           className="absolute bottom-3 w-28 h-6 sm:h-8 rounded-xl bg-green-500 text-white border border-white font-semibold"
-          onClick={getLocation}
+          onClick={getCordinates}
         >
           Get Location
         </button>

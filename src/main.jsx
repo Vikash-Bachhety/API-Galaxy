@@ -7,7 +7,7 @@ import Home from './Components/Home.jsx';
 import Weather from './Components/Weather.jsx';
 import Recipe from './Components/Recipe.jsx';
 import Dictionary from './Components/Dictionary.jsx';
-import Converter from './Components/Converter.jsx';
+import Currency from './Components/Currency.jsx';
 import Contact from './Components/Contact Us.jsx';
 import Password from './Components/Password Generator.jsx';
 import Location from './Components/Location.jsx';
@@ -42,8 +42,8 @@ const router = createBrowserRouter([
         element: <Dictionary/>
       },
       {
-        path: "/Converter",
-        element: <Converter/>
+        path: "/Currency",
+        element: <Currency/>
       },
       {
         path: "/Password Generator",
