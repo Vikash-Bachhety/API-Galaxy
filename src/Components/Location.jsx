@@ -34,7 +34,7 @@ function Location() {
   };
 
   return (
-    <div className="bg-gradient-to-r from-sky-500 to-cyan-500 flex justify-center items-center sm:items-start flex-row w-full bg-cover h-[90vh] sm:h-[90vh] font-serif tracking-wider">
+    <div className="bg-gradient-to-r from-sky-500 to-cyan-500 flex justify-center items-center sm:items-start flex-row w-full bg-cover h-[86vh] sm:h-[90vh] font-serif tracking-wider">
       <div
         style={{
           position: "relative",
