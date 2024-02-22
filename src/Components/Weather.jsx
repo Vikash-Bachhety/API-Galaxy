@@ -77,8 +77,9 @@ function Weather() {
               ref={inputRef}
               placeholder="Enter City"
               type="text"
-              value={city.trim()}
+              value={city}
               onChange={(e) => setCity(e.target.value)}
+              onBlur={(e) => setCity(e.target.value.trim())}
             />
             <button
               className="w-28 h-6 sm:h-8 rounded-xl bg-red-500 text-white border border-white font-semibold"
