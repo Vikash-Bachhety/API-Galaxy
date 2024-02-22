@@ -7,16 +7,19 @@ import Clouds from '../assets/weather Images/cloudy.png';
 import Rain from '../assets/weather Images/rainy.png';
 import Haze from '../assets/weather Images/haze.png';
 import Fog from '../assets/weather Images/fog.png';
+import Smoke from '../assets/weather Images/Smoke.png';
 
 
 function Weather() {
   const [city, setCity] = useState('');
   const [weatherData, setWeatherData] = useState(null);
+
   const inputRef = useRef(null);
   const resultRef = useRef(null);
 
   const handleSearch = async () => {
     try {
+      setCity('');
       const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}&units=metric`);
       if (!response.ok) {
         throw new Error('Failed to fetch weather data');
@@ -43,6 +46,8 @@ function Weather() {
         return Fog;
       case 'Mist':
         return Mist;
+        case 'Smoke':
+        return Smoke;
       default:
         return null;
     }
@@ -65,7 +70,7 @@ function Weather() {
               ref={inputRef}
               placeholder="Enter City"
               type="text"
-              value={city}
+              value={city.trim()}
               onChange={(e) => setCity(e.target.value)}
             />
             <button

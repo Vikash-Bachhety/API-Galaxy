@@ -10,6 +10,7 @@ function Dictionary() {
 
   const handleSearch = async function () {
     try {
+      setWord('')
       const response = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`);
       if (!response.ok) {
         throw new Error("Failed to fetch data. Please try again.");
