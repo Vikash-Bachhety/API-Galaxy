@@ -41,10 +41,10 @@ const router = createBrowserRouter([
         path: "/Dictionary",
         element: <Dictionary/>
       },
-      {
-        path: "/Currency",
-        element: <Currency/>
-      },
+      // {
+      //   path: "/Currency",
+      //   element: <Currency/>
+      // },
       {
         path: "/Password Generator",
         element: <Password/>
