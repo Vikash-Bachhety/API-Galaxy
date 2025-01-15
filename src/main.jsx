@@ -8,7 +8,6 @@ import Weather from './Components/Weather.jsx';
 import Recipe from './Components/Recipe.jsx';
 import Dictionary from './Components/Dictionary.jsx';
 import Currency from './Components/Currency.jsx';
-import Contact from './Components/Contact Us.jsx';
 import Password from './Components/Password Generator.jsx';
 import Location from './Components/Location.jsx';
 
@@ -23,19 +22,19 @@ const router = createBrowserRouter([
       },
       {
         path: "/Home",
-        element: <Home/> 
+        element: <Home/>
       },
       {
         path: "/Weather",
-        element: <Weather/> 
+        element: <Weather/>
       },
       {
         path: "/Recipe",
-        element: <Recipe/> 
+        element: <Recipe/>
       },
       {
         path: "/Location",
-        element: <Location/> 
+        element: <Location/>
       },
       {
         path: "/Dictionary",
@@ -48,10 +47,6 @@ const router = createBrowserRouter([
       {
         path: "/Password Generator",
         element: <Password/>
-      },
-      {
-        path: "/Contact Us",
-        element: <Contact/>
       }
     ]
   }
