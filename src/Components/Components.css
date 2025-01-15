@@ -10,6 +10,12 @@
   scroll-behavior: smooth;
 }
 
+.common2 {
+    background-image: url("../assets/jose-ignacio-pompe-VkF6IXHVIvA-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
 .scroll::-webkit-scrollbar {
   display: none;
 }
