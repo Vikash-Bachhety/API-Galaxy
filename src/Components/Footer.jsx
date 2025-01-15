@@ -9,7 +9,7 @@ import youtube from "../assets/icons/youtube.png";
 
 function Footer() {
   return (
-    <div className="backGroundAnimate flex flex-col flex-wrap fixed bottom-0 left-0 min-w-full h-auto p-4 sm:p-0 lg:h-32 items-center pt-1 lg:pt-7 tracking-wider">
+    <div className="backGroundAnimate flex flex-col flex-wrap fixed bottom-0 left-0 min-w-full h-auto p-4 sm:p-0 lg:h-28 items-center pt-1 lg:pt-7 tracking-wider">
       <div className="flex flex-wrap text-white sm:mx-0 mx-2 gap-x-4 lg:gap-x-10 text-sm lg:text-xl justify-center">
         <Links to="Home" text="Home" />
         <Links to="Weather" text="Weather" />
