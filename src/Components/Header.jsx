@@ -18,9 +18,8 @@ function Header() {
                <Links to = "Recipe" text='Recipe'/>
                <Links to = "Location" text='Location'/>
                <Links to = "Password" text='Password Generator'/>
-               <Links to = "Contact" text='Contact Us'/>
             </div>
-            <a href="https://github.com/Vikash-Bachhety?tab=repositories" target='_blank'><button className='animate flex justify-center bg-rose-500 hover:scale-105 text-white sm:text-xl mt-2 sm:mt-0 font-normal w-24 h-6 sm:w-28 sm:h-8 rounded-lg sm:mr-10 border border-gray-100' >Git Hub</button></a>
+            <a href="https://github.com/Vikash-Bachhety?tab=repositories" target='_blank'><button className='animate flex justify-center bg-rose-500 hover:scale-105 text-white sm:text-lg mt-2 sm:mt-0 font-normal w-24 h-6 sm:w-24 sm:h-8 rounded-lg sm:mr-10 border border-gray-100' >Git Hub</button></a>
         </div>
     )
 }
