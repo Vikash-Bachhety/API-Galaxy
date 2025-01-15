@@ -80,7 +80,7 @@ function Content() {
         alignItems: "center",
         margin: "20px 0px 100px",
         width: "auto",
-        height: "full",
+        height: "100vh",
         color: "black",
         textShadow: "10px",
         paddingBottom: "18vh",
@@ -158,7 +158,7 @@ function Content() {
               <h5>{item.strMeal}</h5>
             </div>
             <div style={{display:"flex", justifyContent:"center", marginBottom:"5px"}}><StarRating /></div>
-            
+
             <img
               style={{
                 height: "300px",
