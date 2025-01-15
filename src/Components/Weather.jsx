@@ -55,8 +55,8 @@ function Weather() {
   };
 
   return (
-    <div className="bg-gradient-to-r from-sky-500 to-indigo-500 flex flex-col sm:flex-row bg-center w-full bg-cover sm:h-screen mt-8 sm:fixed -z-10 left-0 font-serif tracking-wider">
-      <div className="scrollLeft sm:w-1/4 w-11/12 h-32 sm:h-72 sm:p-4 mt-16 sm:mt-24 mb-3 sm:mb-28 flex flex-col sm:gap-y-4 mx-4 sm:m-24 bg-black rounded-lg bg-opacity-80 text-white border-black border-2 drop-shadow-sm">
+    <div className="bg-gradient-to-r from-sky-500 to-indigo-500 flex flex-col items-center justify-center sm:flex-row w-full min-h-screen -z-10 font-serif tracking-wider">
+      <div className="scrollLeft sm:w-1/4 w-11/12 h-32 sm:h-72 sm:p-4 mb-3 sm:mb-28 flex flex-col sm:gap-y-4 mx-4 sm:m-24 bg-black rounded-lg bg-opacity-80 text-white border-black border-2 drop-shadow-sm">
         <h2 className="text-sm sm:text-2xl font-bold">Weather</h2>
         <p className="text-sm sm:text-lg sm:leading-relaxed sm:tracking-wider">
           Stay Ahead of the Elements Stay informed and prepared with real-time
@@ -66,7 +66,7 @@ function Weather() {
         </p>
       </div>
 
-      <div className="animate h-52 w-5/6 sm:w-1/4 sm:h-2/3 drop-shadow-md ml-8 sm:ml-0 flex flex-col mb-3 sm:mb-0 sm:mt-6 sm:hover:scale-95 transition-all duration-1000 bg-black rounded-lg bg-opacity-60 pt-2 sm:py-6 border-x-2 border-y-4 border-white">
+      <div className="animate h-60 w-5/6 sm:w-1/4 sm:h-[500px] drop-shadow-md flex flex-col mb-3 sm:mb-0 bg-black rounded-lg bg-opacity-60 pt-2 sm:py-6 border-x-2 border-y-4 border-white">
         <h1 className="font-bold text-sm sm:text-2xl sm:mb-2 font-sans text-white">
           Weather App
         </h1>
@@ -91,7 +91,7 @@ function Weather() {
 
           <div
             id="result"
-            className="flex flex-col h-40 sm:w-11/12 sm:h-5/6"
+            className="flex flex-col items-center justify-center h-40 sm:w-11/12 sm:h-5/6"
             ref={resultRef}
           >
             {weatherData && (
